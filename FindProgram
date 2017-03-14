@@ -1,0 +1,4 @@
+md c:\larjr
+wmic /output:C:\larjr\InstallList.txt product get name,version
+find c:\larjr\InstallList.txt "program"
+pause
